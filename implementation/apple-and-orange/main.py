@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-house = [int(n) for n in input('input house coords \n').split(' ')]
-trees = [int(n) for n in input('Input trees coords \n').split(' ')]
-m_and_n = [int(n) for n in input('input m and n coords \n').split(' ')]
-m_distances = [int(n) for n in input('input m dist \n').split(' ')]
-n_distances = [int(n) for n in input('input n dist \n').split(' ')]
+house = [int(n) for n in input('').split(' ')]
+trees = [int(n) for n in input('').split(' ')]
+m_and_n = [int(n) for n in input('').split(' ')]
+m_distances = [int(n) for n in input('').split(' ')]
+n_distances = [int(n) for n in input('').split(' ')]
 
 m_counter = 0
 for md in m_distances:
